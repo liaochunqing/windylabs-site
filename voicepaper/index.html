@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VoicePaper — Open the book. Talk to it.</title>
+<meta name="description" content="VoicePaper turns what you say into a private diary — transcribed on your device, page by page. Voice, photos, and mood, all in one notebook. Download on the App Store.">
+<style>
+  :root { --ink:#241F33; --sec:#6B6480; --accent:#FF8C5A; --bg:#FFF8F2; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", sans-serif;
+         background: linear-gradient(135deg, #2C2A4A 0%, #4B3F72 38%, #FF8C5A 100%);
+         margin: 0; color: var(--ink); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 64px 32px; }
+  .hero { display: flex; align-items: center; gap: 56px; }
+  .hero-text { flex: 1; color: #fff; min-width: 0; }
+  .hero-text .eyebrow { font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin: 0 0 18px; }
+  .hero-text h1 { font-family: Georgia, "Times New Roman", serif; font-size: 60px; line-height: 1.05; margin: 0 0 20px; font-weight: 400; }
+  .hero-text p.tag { font-size: 19px; color: rgba(255,255,255,0.85); max-width: 460px; line-height: 1.6; margin: 0 0 6px; }
+  .hero-text p.tag-zh { font-size: 14px; color: rgba(255,255,255,0.5); margin: 0 0 36px; max-width: 460px; }
+  .cta { display: inline-block; background: #fff; color: var(--ink); font-weight: 700;
+         font-size: 16px; text-decoration: none; padding: 16px 34px; border-radius: 14px;
+         transition: transform .15s ease; }
+  .cta:hover { transform: translateY(-1px); }
+  .cta-sub { color: rgba(255,255,255,0.55); font-size: 12px; margin: 14px 0 0; }
+
+  .hero-shot { flex: 0 0 auto; }
+  .hero-shot img { width: 280px; max-width: 60vw; border-radius: 28px; box-shadow: 0 40px 100px -20px rgba(0,0,0,0.5);
+                   transform: rotate(3deg); display: block; }
+
+  .features { margin-top: 80px; background: var(--bg); border-radius: 32px; padding: 48px;
+              display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
+  .feature .emoji { font-size: 26px; margin-bottom: 14px; display: block; }
+  .feature h3 { font-size: 17px; margin: 0 0 8px; font-weight: 700; }
+  .feature p { font-size: 14px; color: var(--sec); margin: 0; line-height: 1.6; }
+
+  .footer { margin-top: 36px; text-align: center; color: rgba(255,255,255,0.55); font-size: 12px; line-height: 2; }
+  .footer a { color: #fff; text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 40px 20px; }
+    .hero { flex-direction: column-reverse; gap: 32px; text-align: center; }
+    .hero-text h1 { font-size: 42px; }
+    .hero-text p.tag { font-size: 17px; max-width: none; }
+    .hero-text p.tag-zh { max-width: none; }
+    .hero-text { text-align: left; }
+    .hero-shot img { width: 220px; max-width: 70vw; transform: none; }
+    .features { grid-template-columns: repeat(2, 1fr); padding: 32px; gap: 20px; margin-top: 48px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Now on the App Store · iOS</p>
+        <h1>Open the book.<br>Talk to it.</h1>
+        <p class="tag">VoicePaper turns what you say into a private diary — transcribed on your device, page by page. Voice, photos, and mood, kept in one beautiful notebook.</p>
+        <p class="tag-zh">翻开本子，对它说话——你说的话变成一篇私密日记，端侧转写、一页页翻阅。语音、照片、心情，都收在同一个精装本里。</p>
+        <a class="cta" href="https://apps.apple.com/app/id6670278331">Download on the App Store</a>
+        <p class="cta-sub">iOS 17+ · No sign-up required · Audio stays on your phone</p>
+      </div>
+      <div class="hero-shot">
+        <img src="shot1.png" alt="VoicePaper diary screenshot">
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="emoji">🎙️</span>
+        <h3>Speak, it writes</h3>
+        <p>Just talk — your words become text in real time, transcribed right on your device.</p>
+      </div>
+      <div class="feature">
+        <span class="emoji">📖</span>
+        <h3>Feels like paper</h3>
+        <p>Swipe left and right to flip between entries, like turning the pages of a real notebook.</p>
+      </div>
+      <div class="feature">
+        <span class="emoji">🖼️</span>
+        <h3>Voice · photos · mood</h3>
+        <p>Capture a whole day in one entry — and reread it later, with the voice still there.</p>
+      </div>
+      <div class="feature">
+        <span class="emoji">🔒</span>
+        <h3>Stays on your phone</h3>
+        <p>On-device transcription and insights. Your audio is never uploaded to anyone.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="/voicepaper/privacy.html">Privacy Policy · 隐私政策</a> &nbsp;·&nbsp;
+      <a href="/voicepaper/terms.html">Terms · 条款</a> &nbsp;·&nbsp;
+      <a href="/voicepaper/support.html">Support · 支持</a><br>
+      Not a medical device · for self-reflection only
+    </div>
+  </div>
+</body>
+</html>
